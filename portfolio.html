@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WebStudio" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!--body-->
+  <body>
+    <header class="header-line">
+      <div class="header container">
+        <nav class="navi">
+          <a class="logo" href="./index.html"><span class="web-color">Web</span>Studio</a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="./index.html">Agencja</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link backlight-item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="right-up-contact">
+          <li class="right-up-contact-list">
+            <a href="mailto:info@devstudio.com" class="right-up-contact-list-link">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <span>info@devstudio.com</span></a
+            >
+          </li>
+          <li class="right-up-contact-list">
+            <a href="tel:48111111111" class="right-up-contact-list-link">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <span>+48 111 111 111</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <!--PORTFOLIO BUTTONS-->
+      <section class="buttons-list">
+        <div class="section-buttons">
+          <ul>
+            <li class="buttons-item">
+              <button type="button" class="btn">Wszystkie</button>
+            </li>
+            <li class="buttons-item">
+              <button type="button" class="btn">Strony</button>
+            </li>
+            <li class="buttons-item">
+              <button type="button" class="btn">Aplikacje</button>
+            </li>
+            <li class="buttons-item">
+              <button type="button" class="btn">Design</button>
+            </li>
+            <li class="buttons-item">
+              <button type="button" class="btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--OFFER-->
+      <section class="offer container">
+        <div class="section-cards">
+          <ul class="offer-list">
+            <!-- TECHNOCRACK -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img1_technocrack.jpg"
+                    width="370"
+                    height="294"
+                    alt="Technocrack"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
+                      na niezabezpieczone serwery konkurencji
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Technocrack</h3>
+                  <span class="offer-pic-desc-lower">Strona internetowa</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- GRAFIKA NEW ORLEAN -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img2_neworlean.jpg"
+                    width="370"
+                    height="294"
+                    alt="Grafika New Orlean vs Golden Star"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Grafika New Orlean vs Golden Star</h3>
+                  <span class="offer-pic-desc-lower">Design</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- RESTAURACJA SEAFOOD -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img3_seafood.jpg"
+                    width="370"
+                    height="294"
+                    alt="Restauracja Seafood"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Restauracja Seafood</h3>
+                  <span class="offer-pic-desc-lower">Aplikacja</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- PROJEKT PRIME -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img4_headset.jpg"
+                    width="370"
+                    height="294"
+                    alt="Project Prime"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Project Prime</h3>
+                  <span class="offer-pic-desc-lower">Marketing</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- PROJEKT BOXES -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img5_boxes.jpg"
+                    width="370"
+                    height="294"
+                    alt="Project Boxes"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Project Boxes</h3>
+                  <span class="offer-pic-desc-lower">Aplikacja</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- INSPIRATIONS HAS NO BORDERS -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img6_dipslay.jpg"
+                    width="370"
+                    height="294"
+                    alt="Inspiration has no Borders"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Inspiration has no Borders</h3>
+                  <span class="offer-pic-desc-lower">Strona internatowa</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- MAGAZYN LIMITED EDITION -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img7_magazine.jpg"
+                    width="370"
+                    height="294"
+                    alt="Magazyn Limited Edition"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Magazyn Limited Edition</h3>
+                  <span class="offer-pic-desc-lower">Design</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- PROJECT LAB -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img8_label.jpg"
+                    width="370"
+                    height="294"
+                    alt="Projekt LAB"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Projekt LAB</h3>
+                  <span class="offer-pic-desc-lower">Marketing</span>
+                </figcaption>
+              </figure>
+            </li>
+            <!-- GROWING BUSINESS -->
+            <li class="offer-item">
+              <figure>
+                <div class="offer-pic">
+                  <img
+                    src="./images/portfolio_img9_laptop.jpg"
+                    width="370"
+                    height="294"
+                    alt="Grownig Business"
+                  />
+                  <div class="offer-pic-box">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book.
+                    </p>
+                  </div>
+                </div>
+                <figcaption class="offer-pic-desc">
+                  <h3>Grownig Business</h3>
+                  <span class="offer-pic-desc-lower">Aplikacja</span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-----FOOTER----->
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-address">
+          <a class="logo" href="index.html" title="Strona główna"
+            ><span class="web-color">Web</span><span class="studio-color">Studio</span></a
+          >
+          <address>
+            <ul class="address-list">
+              <li class="address-list-item">
+                <span class="address-color">m. Warszawa Aleje Jerozolimskie 221</span>
+              </li>
+              <li class="address-list-item">
+                <a href="mailto:info@example.com" class="address-list-item-link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a href="tel:+48111111111" class="address-list-item-link">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-soc">
+          <span>Dołącz do nas</span>
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a href="#" class="footer-soc-link" target="blank">
+                <svg class="footer-soc-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#" class="footer-soc-link" target="blank">
+                <svg class="footer-soc-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#" class="footer-soc-link" target="blank">
+                <svg class="footer-soc-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="#" class="footer-soc-link" target="blank">
+                <svg class="footer-soc-icon" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <span>Zapisz się do newslettera</span>
+          <form name="footer-news-form" class="footer-news-form">
+            <label>
+              <input
+                type="email"
+                name="footer-news-email"
+                class="footer-news-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="newsletter-btn">
+              <span>Zapisz się</span>
+              <svg class="footer-news-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-footer-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
